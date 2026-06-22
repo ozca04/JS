@@ -5,16 +5,25 @@ console.log(name+surname);
 
 console.log(`${name} ${surname}`) //not bobr froglord, it will be name surname
 
-//NUMBER
+//////////
+//NUMBER//
+//////////
+
 alert(1/0);//infinity 
 alert("joemama");//"" u name it 
 alert(Infinity);// specifiy commend given
 
-//BigInt
+//////////
+//BigInt//
+//////////
 
 //In js values larger than (2^53-1), or less than -(2^53-1) cannot be represented 
 
-//STRING
+//////////
+//STRING//
+//////////
+
+
 //a string must be surrounded by quotes
 
 let str = "Hello";
@@ -30,4 +39,16 @@ let phrase = `can embed another ${str}`;
 let name = "bober";
 alert(`hello, ${bober}!`);
 alert( `the result is ${1 + 2}` );
+
+/////////////////////////
+//Boolean(logical type)//
+/////////////////////////
+
+//boolean type has only two values: true and false. 
+
+let name = true; //yes, name field is checked 
+let age = false; //bo, age field is not checked 
+
+let isgreater = 4 > 1; 
+alert( isgreater); //true
 
